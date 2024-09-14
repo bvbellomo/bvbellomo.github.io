@@ -1,0 +1,15 @@
+body {
+font-family: "MS Sans-serif", sans-serif;
+margin:1% 5% 1% 5%;
+}
+h1{
+	text-align:center
+}
+.email
+{
+	text-align:center;
+	padding-bottom:5%;
+}
+.table { display: table; width:50%}
+.tablerow { display: table-row; }
+.tablecell { display: table-cell; }
