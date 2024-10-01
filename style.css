@@ -13,3 +13,5 @@ h1{
 .table { display: table; width:50%}
 .tablerow { display: table-row; }
 .tablecell { display: table-cell; }
+.term{color:red;}
+.abbr{color:blue;}
