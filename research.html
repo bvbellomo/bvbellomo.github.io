@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title data-react-helmet="true">Brad V Bellomo - Research</title>
+</head>	
+  <body>
+	<h1>Research</h1>
+	<h2>Elevators and Grandmothers</h2>
+	<p>I've heard you don't truly understand something unless you can explain it to your grandmother. This quote is often attributed to Albert Einstein, however as far as I can tell, he never actually said it.  
+	I've also heard you should be able to summarize your research, or any project, in an "elevator speech" - a quick summary you could deliver in the time it takes to ride an elevator.  Again, I haven't found the origin.</p>
+	<p>I've struggled to create an "elevator speech" of my Dissertation for friends and family who are interested.  This is something I should be able to do.  I've even been horrified, when a friend asked what I do, another friend jumped in and said I hate talking about my research.  This couldn't be further from the truth.  I often struggle to start explaining, however I am perfectly happy to ramble on for hours.</p>
+	<p>The difficulty is knowing how much Biology people know.  With math, this easy – everyone gets 12 years of math by the time they graduate High School.  
+	I can assume almost every adult understands algebra, people with a STEM bachelor's degree understand calculus, and anything beyond that should be explained.
+	Unless someone is in the medical field or a biologist, more than a year of Biology is rare.  Some people with no formal Biology training know almost as much as recognized experts, and some otherwise educated and intelligent people know almost nothing.</p>
+	<p>
+	<p>As such, I recommend everyone start with my <a href="primer.html">Primer on Molecular Biology</a> which should be quick review for some people, and a good reference for those wanting to learn.</p>
+	<h2>Introduction to MicroRNA</h2>
+	<p> Victor Ambros and Gary Ruvkun just won the 2024 Nobel Prize in Medicine for the discovery of microRNA (miRNA).  Many people have not heard of miRNA.  
+	In 1993, two research groups led by Dr. Ambros and Dr. Ruvkun both published in the same issue of Cell that a small RNA called lin-4 was essential to larval development of Caenorhabditis elegans, a 1 milimeter long worm. 
+	They noticed the sequence of lin-4 was complementary to the mRNA sequence of the 3'UTR of lin-14, a protein playing a key role in C. elegans larval development, and lin-4 itself was unlikely to encode a protein.  
+	They found similar sequences in other nemotode species, and hypothesized that lin-4 downregulated lin-14 through RNA-RNA interaction.</p>
+	<p>A small loop of non-coding RNA is clipped by enzymes forming 2 short (approximately 22 nucleotide) complementary strands of RNA.  
+	These are incorporated into a protein known as Argonaute (AGO), which keeps one strand and ejects the other, and then undergoes conformational change and becomes known as the RNA-induced silencing complex (RISC).  
+	The RISC then binds to locations in mRNA with RNA complements to miRNA, usually in the 3'UTR but possibly elsewhere.  This interaction typically downregulates the protein the RISC binds to and then degrades the mRNA, but it can upgregulate the protein as well.
+	This regulation of protein expression plays a key role in embryonic development and cell differentiation. </p>
+	<p>It wasn't until 2000 that another article, also including Dr. Ruvkun as an author, is credited with showing this menchanism is not just important to worms.  This article showed a similar mechanism involving another miRNA, let-7, occurs across a diverse set of bilateral animals including humans.
+	Today we know both plants and animals have miRNA and Argonaute.  We don't yet know if this evolved seperately in plants and animals, although I personally believe it has been inherited from our common ancestor more than 1.5 billion years ago.
+	Why nature would evolve, and keep, such an apparently inefficent mechanism of creating and then destroying mRNA instead of simply not creating it in the first place is a mystery.
+	</p>
+	<h2>Relevance to Health and Disease</h2>
+	<p>
+	miRNA is important to studying and treating human disease for several reasons.  
+	First, miRNA is an important mechanism of regulating protein expression and cell differentiation.  
+	The more we understand human biology, the more we are able to understand and treat disease.  miRNAs are often upregulated or downregulated when comparing cancer cells to healthy cells, or different types of the same cancer cells to eachother.  
+	Knowing which miRNAs are expressed in a tumor can provide valuable diagnostic and prognostic information, and possibly guide treatment options.  miRNAs, and a related class of RNAs known as Small interfering RNA (siRNA), can theortical be used as drugs themselves.  
+	An artificial miRNA could be custom designed to degrade a protein or specific groups of proteins and injected into a patient.  I am aware of one such drug being developed for Huntington’s Disease currently in trials. 
+	</p>
+
+	<h2>Unpublished Research</h2>
+	<p>It is difficult to write about unpublished research, as writing is publication, and while I want to advocate my ideas, I don't want to share anything that could hurt my career.  
+	Much more details about what I've done will appear here after my next article is published.</p>
+	<p>As a Computer Scientist, I am working on quantifying and predicting the effects of miRNA targeting.  We know the RISC binds to mRNA with sequences complementary to nucleotides 2-8 of the miRNA.  
+	However, not all locations with complements are biologically relevant, and in animals, having a mismatch or gap is possible.  When a target is confirmed, the miRNA might slightly decrease protein expression, or completely eliminate it, or even an increase protein expression.  
+	Many software programs have already been proposed to find effective target sites, but I believe we can do a much better job predicting target sites and their effects.  I am especially interested in the role played by the structure of mRNA.
+	</p>
+	
+	<a href="../">Home</a>
+  </body>
+</html>
